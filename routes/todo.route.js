@@ -4,7 +4,6 @@ import {
   saveTodoController,
   updateTodoController,
   deleteTodoController,
-  getTodoController,
   getALLTodoController,
 } from "../controller/index.js";
 

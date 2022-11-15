@@ -3,7 +3,7 @@ import {
   updateTodoService,
   deleteTodoService,
   getAllTodoService,
-} from "./services/index.js";
+} from "../services/index.js";
 import Success from "../utils/success.js";
 
 export const saveTodoController = async (req, res) => {

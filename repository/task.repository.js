@@ -1,4 +1,4 @@
-import { TodoList } from "../models/task.model";
+import { TodoList } from "../models/index.js";
 import AppError from "../utils/appError.js";
 
 export const saveTodo = (data) =>
